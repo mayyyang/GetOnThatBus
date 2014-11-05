@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		FB5B51591A096C45004CAD0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B51581A096C45004CAD0E /* main.m */; };
 		FB5B515C1A096C45004CAD0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B515B1A096C45004CAD0E /* AppDelegate.m */; };
-		FB5B515F1A096C45004CAD0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B515E1A096C45004CAD0E /* ViewController.m */; };
-		FB5B51621A096C45004CAD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5B51601A096C45004CAD0E /* Main.storyboard */; };
+		FB5B515F1A096C45004CAD0E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B515E1A096C45004CAD0E /* RootViewController.m */; };
 		FB5B51641A096C45004CAD0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5B51631A096C45004CAD0E /* Images.xcassets */; };
 		FB5B51671A096C45004CAD0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5B51651A096C45004CAD0E /* LaunchScreen.xib */; };
 		FB5B51731A096C46004CAD0E /* GetOnThatBusChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B51721A096C46004CAD0E /* GetOnThatBusChallengeTests.m */; };
+		FB5B517D1A096D4E004CAD0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5B517C1A096D4E004CAD0E /* MapKit.framework */; };
+		FB5B51801A09981D004CAD0E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B517F1A09981D004CAD0E /* DetailViewController.m */; };
+		FB5B51831A09DB81004CAD0E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B51821A09DB81004CAD0E /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		FB5B51581A096C45004CAD0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB5B515A1A096C45004CAD0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB5B515B1A096C45004CAD0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB5B515D1A096C45004CAD0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB5B515E1A096C45004CAD0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FB5B51611A096C45004CAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5B515D1A096C45004CAD0E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB5B515E1A096C45004CAD0E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB5B51631A096C45004CAD0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB5B51661A096C45004CAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB5B516C1A096C46004CAD0E /* GetOnThatBusChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnThatBusChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5B51711A096C46004CAD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5B51721A096C46004CAD0E /* GetOnThatBusChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnThatBusChallengeTests.m; sourceTree = "<group>"; };
+		FB5B517C1A096D4E004CAD0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FB5B517E1A09981D004CAD0E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FB5B517F1A09981D004CAD0E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FB5B51811A09DB81004CAD0E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FB5B51821A09DB81004CAD0E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5B517D1A096D4E004CAD0E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,7 @@
 		FB5B514A1A096C45004CAD0E = {
 			isa = PBXGroup;
 			children = (
+				FB5B517C1A096D4E004CAD0E /* MapKit.framework */,
 				FB5B51551A096C45004CAD0E /* GetOnThatBusChallenge */,
 				FB5B516F1A096C46004CAD0E /* GetOnThatBusChallengeTests */,
 				FB5B51541A096C45004CAD0E /* Products */,
@@ -83,9 +91,12 @@
 			children = (
 				FB5B515A1A096C45004CAD0E /* AppDelegate.h */,
 				FB5B515B1A096C45004CAD0E /* AppDelegate.m */,
-				FB5B515D1A096C45004CAD0E /* ViewController.h */,
-				FB5B515E1A096C45004CAD0E /* ViewController.m */,
-				FB5B51601A096C45004CAD0E /* Main.storyboard */,
+				FB5B515D1A096C45004CAD0E /* RootViewController.h */,
+				FB5B515E1A096C45004CAD0E /* RootViewController.m */,
+				FB5B517E1A09981D004CAD0E /* DetailViewController.h */,
+				FB5B517F1A09981D004CAD0E /* DetailViewController.m */,
+				FB5B51811A09DB81004CAD0E /* TableViewController.h */,
+				FB5B51821A09DB81004CAD0E /* TableViewController.m */,
 				FB5B51631A096C45004CAD0E /* Images.xcassets */,
 				FB5B51651A096C45004CAD0E /* LaunchScreen.xib */,
 				FB5B51561A096C45004CAD0E /* Supporting Files */,
@@ -199,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5B51621A096C45004CAD0E /* Main.storyboard in Resources */,
 				FB5B51671A096C45004CAD0E /* LaunchScreen.xib in Resources */,
 				FB5B51641A096C45004CAD0E /* Images.xcassets in Resources */,
 			);
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5B515F1A096C45004CAD0E /* ViewController.m in Sources */,
+				FB5B515F1A096C45004CAD0E /* RootViewController.m in Sources */,
 				FB5B515C1A096C45004CAD0E /* AppDelegate.m in Sources */,
 				FB5B51591A096C45004CAD0E /* main.m in Sources */,
+				FB5B51831A09DB81004CAD0E /* TableViewController.m in Sources */,
+				FB5B51801A09981D004CAD0E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +256,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB5B51601A096C45004CAD0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB5B51611A096C45004CAD0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB5B51651A096C45004CAD0E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
