@@ -16,6 +16,7 @@
 		FB5B517D1A096D4E004CAD0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5B517C1A096D4E004CAD0E /* MapKit.framework */; };
 		FB5B51801A09981D004CAD0E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B517F1A09981D004CAD0E /* DetailViewController.m */; };
 		FB5B51831A09DB81004CAD0E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5B51821A09DB81004CAD0E /* TableViewController.m */; };
+		FB5B51861A09FC49004CAD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5B51841A09FC49004CAD0E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FB5B517F1A09981D004CAD0E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FB5B51811A09DB81004CAD0E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		FB5B51821A09DB81004CAD0E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FB5B51851A09FC49004CAD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GetOnThatBusChallenge/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		FB5B514A1A096C45004CAD0E = {
 			isa = PBXGroup;
 			children = (
+				FB5B51841A09FC49004CAD0E /* Main.storyboard */,
 				FB5B517C1A096D4E004CAD0E /* MapKit.framework */,
 				FB5B51551A096C45004CAD0E /* GetOnThatBusChallenge */,
 				FB5B516F1A096C46004CAD0E /* GetOnThatBusChallengeTests */,
@@ -210,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5B51861A09FC49004CAD0E /* Main.storyboard in Resources */,
 				FB5B51671A096C45004CAD0E /* LaunchScreen.xib in Resources */,
 				FB5B51641A096C45004CAD0E /* Images.xcassets in Resources */,
 			);
@@ -262,6 +266,14 @@
 				FB5B51661A096C45004CAD0E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FB5B51841A09FC49004CAD0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5B51851A09FC49004CAD0E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +430,7 @@
 				FB5B51781A096C46004CAD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB5B51791A096C46004CAD0E /* Build configuration list for PBXNativeTarget "GetOnThatBusChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				FB5B517B1A096C46004CAD0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

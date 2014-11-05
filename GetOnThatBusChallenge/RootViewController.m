@@ -139,21 +139,15 @@
         detailVC.busStopDictionary = busStopDictionary;
     }
 
-//    if ([segue.identifier isEqualToString:@"segueToTableView"])
-//    {
-//        TableViewController *tableVC = segue.destinationViewController;
-//        NSDictionary *busStopDictionary = self.pinStops[self.index];
-//        tableVC.busStopDictionary = busStopDictionary;
-//    }
 
-//    else
-//    {
-//        TableViewController *tableVC = segue.destinationViewController;
+    else
+    {
+        TableViewController *tableVC = segue.destinationViewController;
+        NSMutableArray *array = self.pinStops[self.index];
+        tableVC = array;
 //        NSDictionary *busStopDictionary = self.pinStops[self.index];
 //        tableVC.busStopDictionary = busStopDictionary;
-////        NSDictionary *busStopDictionary = self.pinStops[self.index];
-////        tableVC.busStopDictionary = busStopDictionary;
-//    }
+    }
 
 }
 

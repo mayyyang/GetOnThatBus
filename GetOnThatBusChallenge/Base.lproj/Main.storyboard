@@ -51,7 +51,7 @@
                         <outlet property="mapView" destination="WHs-DH-j5X" id="218-9h-FC1"/>
                         <outlet property="segmentedControl" destination="ljh-41-qjw" id="5Cx-Dt-mgy"/>
                         <segue destination="4QA-Wa-nbX" kind="show" identifier="segue" id="fbL-36-3dy"/>
-                        <segue destination="kc1-w4-l7y" kind="show" identifier="segueToTableView" id="2Ve-Y7-sir"/>
+                        <segue destination="kc1-w4-l7y" kind="show" identifier="segueToTVC" id="imT-FN-rDB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -102,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kY3-rQ-voF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1210" y="1201"/>
+            <point key="canvasLocation" x="1210" y="1142"/>
         </scene>
         <!--Detail View-->
         <scene sceneID="NO6-Xv-buh">
@@ -205,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O66-8K-chc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="398" y="372"/>
+            <point key="canvasLocation" x="242" y="409"/>
         </scene>
     </scenes>
 </document>
